@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lay">
+
+    <TextView
+        android:id="@+id/emer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:text="Emergency response on the way"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#BC1D2A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:text="location: 128 XYZ street..."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#39A336"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
